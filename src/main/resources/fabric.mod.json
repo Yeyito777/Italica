@@ -4,13 +4,13 @@
   "version": "${version}",
 
   "name": "Italica",
-  "description": "Basic client-sided text formatting!",
+  "description": "A discord-like text editor in Minecraft!",
   "authors": [
-    "Yeyito"
+    "Yeyito777"
   ],
   "contact": {
     "homepage": "https://www.youtube.com/channel/UCHdHfM_ZdBXW_8skMT5EoNw",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "sources": "https://github.com/Yeyito777/Italica"
   },
 
   "license": "MIT License",
