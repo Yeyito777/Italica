@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "id": "italica",
+  "version": "${version}",
+
+  "name": "Italica",
+  "description": "Basic client-sided text formatting!",
+  "authors": [
+    "Yeyito"
+  ],
+  "contact": {
+    "homepage": "https://www.youtube.com/channel/UCHdHfM_ZdBXW_8skMT5EoNw",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+
+  "license": "MIT License",
+  "icon": "assets/italica/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.yeyito.italica.Italica"
+    ],
+    "client": [
+      "net.yeyito.italica.ItalicaClient"
+    ]
+  },
+  "mixins": [
+    "italica.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.14.9",
+    "fabric-api": "*",
+    "minecraft": "~1.19",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
